@@ -1,0 +1,62 @@
+#topbar{
+    background-color:$topbarbg;
+    padding-top:15px;
+    padding-bottom:15px;
+    .top-bar-text{
+        h4{
+            @include fonts('Inter',16px,400,$pcolor)
+        }
+    }
+}
+
+.navbar{
+    padding-top:14px;
+    padding-bottom:30px;
+    .nav-item{
+        margin-left:54px;
+        @include fonts('inter',16px,400,$scolor);
+        
+        a{
+            color:$scolor;
+            transition:all ease-out 0.2s;
+            -webkit-transition:all ease-out 0.2s;
+            -moz-transition:all ease-out 0.2s;
+            -ms-transition:all ease-out 0.2s;
+            -o-transition:all ease-out 0.2s;
+        }
+        a:hover{
+            @include fonts('inter',16px,600,$hovercolor);
+            
+        }
+        .active{
+            @include fonts('inter',16px,600,$hovercolor);
+        }
+        
+    }
+   .cart{
+       a{
+           padding-left:16px;
+           color:$scolor;
+           @include fonts('inter',18px,600,0);
+       }
+       .ct-head{
+           .ct-notify{
+               height:12px;
+               width:12px;
+               border-radius:50%;
+               background-color: $textorange;
+               -webkit-border-radius:50%;
+               -moz-border-radius:50%;
+               -ms-border-radius:50%;
+               -o-border-radius:50%;
+               right:0px;
+               top:2px;
+               @include fonts('inter',10px,400,$pcolor);
+               
+}
+       }
+       .search{
+           color:$hovercolor;
+       }
+   } 
+}

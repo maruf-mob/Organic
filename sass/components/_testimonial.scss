@@ -1,0 +1,48 @@
+#testimonial{
+    background-color: $flashbg;
+    padding-bottom:130px;
+    .test-text{
+        padding-left:96px;
+        h3{
+            padding-top:130px;
+            padding-bottom:27px;
+            @include fonts('inter',35px,700,$scolor);
+        }
+        .ratings{
+            padding-top:32px;
+            padding-bottom:30px;
+            i{
+                color:$star;
+            }
+        }
+        p{
+            @include fonts('inter',16px,400,$paracolor);
+            line-height: 28px;
+            padding-right:47px;
+            padding-bottom:20px;
+        }
+        .user-details{
+            .user-text{
+                padding-left:27px;
+                padding-top:20px;
+                h4{
+                    @include fonts('inter',20px,600,$textcolor); 
+                    line-height: 28px;
+                }
+                p{
+                    @include fonts('inter',16px,400,$testgray); 
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+    .arrows{
+        padding-left:96px;
+        .fa-arrow-right-long{
+            margin-left:10px;
+        }
+    }
+    .test-user{
+        padding-top:130px;
+    }
+}

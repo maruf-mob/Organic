@@ -1,0 +1,44 @@
+#flash{
+    background:url(../images/flash-bg.jpg) no-repeat center /cover;
+    padding-bottom:130px;
+    .flash-content{
+        h3{
+            @include fonts('inter',45px,700,$scolor);
+            padding-top:130px;
+            padding-bottom:10px;
+        }
+        h4{
+            @include fonts('inter',30px,600,$scolor);
+            padding-bottom:20px;
+        }
+        p{
+            @include fonts('inter',16px,400,$paracolor);
+            padding-bottom:30px;
+        }
+        .btn-flash{
+            button{
+                border:none;
+                background-color: $textorange;
+                padding:14px 50px;
+                border-radius:10px;
+                -webkit-border-radius:10px;
+                -moz-border-radius:10px;
+                -ms-border-radius:10px;
+                -o-border-radius:10px;
+                @include fonts('inter',20px,600,$pcolor);
+                margin-top:30px;
+                transition:all linear 0.4s ;
+                -webkit-transition:all linear 0.4s ;
+                -moz-transition:all linear 0.4s ;
+                -ms-transition:all linear 0.4s ;
+                -o-transition:all linear 0.4s ;
+            }
+            &:hover{
+                button{
+                    background-color: $hovercolor;
+                }
+            }
+        }
+        
+    }
+}

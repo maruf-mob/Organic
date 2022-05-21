@@ -1,0 +1,44 @@
+#banner{
+    background:url(../images/banner-bg.jpg)no-repeat center/cover;
+    padding-bottom:200px;
+    // height:400px;
+    
+    .banner-text{
+        h3{
+            @include fonts('inter',65px,700,$scolor);
+            padding-top:190px;
+            
+            span{
+                color:$textorange;
+            }
+        }
+        p{
+            @include fonts('inter',16px,400,$paracolor);
+            line-height:28px;
+            padding-top:25px;
+            padding-right:45px;
+        }
+        .btn-banner{
+            button{
+                border:none;
+                background-color: $textorange;
+                padding:14px 50px;
+                border-radius:10px;
+                -webkit-border-radius:10px;
+                -moz-border-radius:10px;
+                -ms-border-radius:10px;
+                -o-border-radius:10px;
+                @include fonts('inter',20px,600,$pcolor);
+                margin-top:30px;
+                transition:all linear 0.4s ;
+                -webkit-transition:all linear 0.4s ;
+                -moz-transition:all linear 0.4s ;
+                -ms-transition:all linear 0.4s ;
+                -o-transition:all linear 0.4s ;
+            }
+        }
+        button:hover{
+            background-color:$hovercolor;
+        }
+    }
+}
