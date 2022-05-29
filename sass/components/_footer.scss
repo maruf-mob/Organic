@@ -1,10 +1,10 @@
 footer{
-    background-color:$catbg;
+    background-color:$foot-back;
     padding-top:130px;
     padding-bottom:130px;
     .logo-details{
         p{
-            @include fonts('inter',16px,400,$testgray);
+            @include fonts('inter',16px,400,$white);
             line-height:28px;
             padding-right:8px;
             padding-top:20px;
@@ -13,12 +13,12 @@ footer{
     .customer-service{
         padding-left:50px;
          h5{
-            @include fonts('inter',20px,600,$textcolor);
+            @include fonts('inter',20px,600,$white);
             line-height:28px;
             padding-bottom:40px;
          }  
          p{
-            @include fonts('inter',16px,400,$testgray);
+            @include fonts('inter',16px,400,$white);
             line-height:38px;
             padding-right:85px;
          }
@@ -26,12 +26,12 @@ footer{
     .categories{
         // padding-left:50px;
          h5{
-            @include fonts('inter',20px,600,$textcolor);
+            @include fonts('inter',20px,600,$white);
             line-height:28px;
             padding-bottom:40px;
          }  
          p{
-            @include fonts('inter',16px,400,$testgray);
+            @include fonts('inter',16px,400,$white);
             line-height:38px;
             padding-right:15px;
          }
@@ -39,12 +39,12 @@ footer{
     .news{
         padding-left:10px;
          h5{
-            @include fonts('inter',20px,600,$textcolor);
+            @include fonts('inter',20px,600,$white);
             line-height:28px;
             padding-bottom:40px;
          }  
          p{
-            @include fonts('inter',16px,400,$testgray);
+            @include fonts('inter',16px,400,$white);
             line-height:38px;
             padding-right:15px;
          }

@@ -28,3 +28,14 @@ const swiper = new Swiper('.swiper', {
     $(this).css("color","#F47606");
     $('.fa-arrow-right-long').css("color","#363636");
   });
+
+// $(document).ready(function(){
+//   $('.run').imagezoomsl({
+//     loopspeedanimate: 2.5,
+//     scrollspeedanimate: 3 ,
+//     magnifycursor: 'crosshair',
+//     cursorshade: false,
+    
+//   });
+    
+// });

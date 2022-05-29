@@ -1,0 +1,104 @@
+#product{
+    padding-bottom:130px;
+    .top{
+        h2{
+            @include fonts('inter',35px,700,$scolor);
+        }
+        p{
+            @include fonts('inter',16px,400,$textorange);
+            cursor: pointer; 
+        }
+    }
+    .product-rate{
+        padding-top:50px;
+        .product-image{
+            position: relative;
+            
+            
+            .image-hover{
+                position:absolute;
+                bottom:13px;
+                left:50%;
+                transform: translateX(-50%);
+                -webkit-transform: translateX(-50%);
+                -moz-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                -o-transform: translateX(-50%);
+                visibility:hidden;
+                opacity: -1;
+                transition:all linear 0.4s;
+                -webkit-transition:all linear 0.4s;
+                -moz-transition:all linear 0.4s;
+                -ms-transition:all linear 0.4s;
+                -o-transition:all linear 0.4s;
+                
+                ul{
+                    display:flex;
+                    margin-left:-31px;
+                    li{
+                        height:47px;
+                        width:47px;
+                        border-radius:50%;
+                        -webkit-border-radius:50%;
+                        -moz-border-radius:50%;
+                        -ms-border-radius:50%;
+                        -o-border-radius:50%;
+                        background-color:$white;
+                        margin-right:16px;
+                        line-height:47px;
+                        text-align: center;
+                        transition: all linear 0.4s;
+                        -webkit-transition: all linear 0.4s;
+                        -moz-transition: all linear 0.4s;
+                        -ms-transition: all linear 0.4s;
+                        -o-transition: all linear 0.4s;
+                        
+                        a{
+                            cursor: pointer;
+                            i{
+                                font-size:20px;
+                                color:$paracolor;
+                            }
+                            
+                        }
+                        
+                        &:last-child{
+                            margin-right:0px;
+                        }
+                        &:hover{
+                            background-color: $btnbg;
+                            i{
+                                color:$white;
+                            }
+                        }
+                    }
+                    
+                    
+                }
+            }
+            &:hover{
+                .image-hover{
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+        }
+        .product-details{
+            padding-top:30px;
+            text-align:center;
+            .rate{
+                a{
+                    color:$star;
+                }
+            }
+            p{
+                @include fonts('inter',20px,400,$black);
+                padding-top:5px;
+                padding-bottom:5px;
+            }
+            h5{
+                @include fonts('inter',20px,600,$black);
+            }
+        }
+    }
+}

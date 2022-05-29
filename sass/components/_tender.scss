@@ -1,0 +1,255 @@
+#tender{
+    .fruits{
+        .small-image{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            img{
+                margin-bottom:24px;
+            }
+            
+        }
+    }
+
+    .tener-details{
+        padding-left:30px;
+        h3{
+            @include fonts('inter',25px,600,$scolor);
+            padding-bottom:20px;
+            
+        }
+        .review{
+            display:flex;
+            .star{
+                margin-right:20px;
+                color:$star;
+            }
+            p{
+                @include fonts('inter',16px,400,$paracolor);
+                margin-right:20px;
+                span{
+                    @include fonts('inter',16px,600,$scolor);
+                }
+            }
+        }
+        h4{
+            @include fonts('inter',25px,600,$textorange);
+            padding-top:25px;
+            padding-bottom:18px;
+        }
+        p{
+            @include fonts('inter',16px,400,$paracolor);
+            line-height: 30px;
+        }
+        .cart{
+            display:flex;
+            padding-top:22px;
+            .quantity{
+                width:200px;
+                padding:14px 38px;
+                border:1px solid $cartcolor;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                margin-right:20px;
+                a{
+                    i{
+                        @include fonts(0,20px,600,$scolor);
+                    }                    
+                }
+                p{
+                    @include fonts('inter',20px,600,$scolor);
+                }
+            }
+            .add{
+                width:200px;
+                padding:14px 38px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                background-color: $textorange;
+                color:$pcolor;
+                cursor: pointer;
+                p{
+                    @include fonts('inter',20px,600,$pcolor); 
+                    
+                }
+            }
+        }
+        .button{
+            background-color: $shopbg;
+            padding:14px 167px;
+            border-radius: 10px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            margin-top:20px;   
+            
+            a{
+                @include fonts('inter',20px,600,$pcolor);
+                line-height:28px; 
+                cursor: pointer;
+            }
+        }
+        .wish{
+            display:flex;
+            padding-top:22px;
+            .wishlist{
+                width:200px;
+                padding:14px;
+                border:1px solid $cartcolor;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                margin-right:20px;
+                a{
+                    i{
+                        @include fonts(0,20px,400,$paracolor);
+                    }                    
+                }
+                p{
+                    @include fonts('inter',16px,400,$paracolor);
+                }
+            }
+            .compare{
+                width:200px;
+                padding:14px;
+                border:1px solid $cartcolor;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                margin-right:20px;
+                a{
+                    i{
+                        @include fonts(0,20px,400,$paracolor);
+                    }                  
+                }
+                p{
+                    @include fonts('inter',16px,400,$paracolor);
+                }
+            }
+        }
+        .categori{
+            padding-top:15px;
+            padding-bottom:43px;
+            p{
+                @include fonts('inter',16px,400,$paracolor); 
+                line-height:30px;
+                padding-left:5px;
+                
+                span{
+                    @include fonts('inter',16px,600,$scolor);     
+                }
+            }
+            ul{
+                padding-top:20px;
+                display:flex;
+                li{
+                    margin-right:10px;
+                    background-color:red;
+                    &:first-child{
+                        margin-left:-22px;
+                        margin-right:20px;
+                        padding-top:7px;
+                        @include fonts('inter',16px,600,$scolor);
+                        background-color: $pcolor;
+                    }
+                    &:nth-child(2){
+                        background-color:$facebook;
+                        border-radius: 10px;
+                        -webkit-border-radius: 10px;
+                        -moz-border-radius: 10px;
+                        -ms-border-radius: 10px;
+                        -o-border-radius: 10px;
+                    }
+                    &:nth-child(3){
+                        background-color:$twitter;
+                        border-radius: 10px;
+                        -webkit-border-radius: 10px;
+                        -moz-border-radius: 10px;
+                        -ms-border-radius: 10px;
+                        -o-border-radius: 10px;
+                    }
+                    &:nth-child(4){
+                        background-color:$pinterest;
+                        border-radius: 10px;
+                        -webkit-border-radius: 10px;
+                        -moz-border-radius: 10px;
+                        -ms-border-radius: 10px;
+                        -o-border-radius: 10px;
+                    }
+                    &:last-child{
+                        background-color:$dribble;
+                        border-radius: 10px;
+                        -webkit-border-radius: 10px;
+                        -moz-border-radius: 10px;
+                        -ms-border-radius: 10px;
+                        -o-border-radius: 10px;
+                    }
+                    a{
+                        width:40px;
+                        height:40px;
+                        display: block;
+                        line-height:40px;
+                        text-align: center;
+                        color:$pcolor;
+                        border-radius: 10px;
+                        -webkit-border-radius: 10px;
+                        -moz-border-radius: 10px;
+                        -ms-border-radius: 10px;
+                        -o-border-radius: 10px;
+                        i{
+                            @include fonts(0,16px,0,0); 
+                        }
+                        
+                    }
+                    
+                    
+                }
+            }
+        }
+        .sold{
+            border-top:0.5px solid $cartcolor;
+            border-bottom:0.5px solid $cartcolor;
+            h5{
+                @include fonts('inter',20px,600,$scolor);
+                line-height:30px; 
+                padding-top:16px;
+                padding-left:10px;
+                padding-bottom:20px;
+            }
+            ul{
+                list-style: disc;
+                li{
+                   margin-bottom:6px;
+                   @include fonts('inter',16px,400,$paracolor); 
+                   line-height:30px;
+                }
+            }
+            
+        }
+        
+    }
+}

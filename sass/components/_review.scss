@@ -1,0 +1,81 @@
+#review{
+    padding-top:50px;
+    padding-bottom:130px;
+    .review-items{
+        padding-bottom:5px;
+        border-bottom:1px solid $cartcolor;
+        .nav{
+            justify-content: space-between;
+        }
+        .nav-tabs{
+            border:none;
+            text-align: center;
+        }
+        .nav-tabs .nav-link{
+            border-radius:0;
+            -webkit-border-radius:0;
+            -moz-border-radius:0;
+            -ms-border-radius:0;
+            -o-border-radius:0;
+            position:relative;
+            @include fonts('inter',20px,500,$paracolor);
+            
+        }
+        .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+            border-color:transparent;
+            color:$textorange;
+        }
+        .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+            border:0px transparent;
+            @include fonts('inter',20px,600,$textorange);
+        }
+        .nav-tabs .nav-link.active::after{
+            content:'';
+            height:2px;
+            background-color:$btnbg;
+            position:absolute;
+            left:0;
+            top:51px;
+            animation: bar .4s forwards;
+            -webkit-animation: bar .4s forwards;
+        }
+        @keyframes bar{
+            0%{
+                width: 0;
+            }
+            100%{
+                width:200px;
+            }
+        }
+        
+    }
+    .review-text{
+        padding-top:30px;
+        .rev-1{
+            @include fonts('inter',16px,400,$paracolor);
+            line-height:30px;
+            padding-right:145px;
+            padding-bottom:20px;
+        }
+        .rev-2{
+            @include fonts('inter',16px,400,$paracolor);
+            line-height:30px;
+            padding-right:145px;
+            padding-bottom:20px;
+        }
+        .rev-3{
+            @include fonts('inter',16px,400,$paracolor);
+            line-height:30px;
+            padding-right:145px;
+            padding-bottom:20px;
+            font-style: italic;
+        }
+        ul{
+            list-style-type: disc;
+            @include fonts('inter',16px,400,$paracolor);
+            margin-left:30px;
+        }
+    }
+    
+    
+}
