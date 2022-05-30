@@ -1,0 +1,32 @@
+#founder{
+    padding-top:76px;
+    padding-bottom:130px;
+    .founder-image{
+        padding-top:65px;
+    }
+    .founder-details{
+        h6{
+            @include fonts('inter',20px,500,$paracolor);
+        }
+        h3{
+            @include fonts('inter',35px,700,$scolor);
+            padding-right:100px;
+            padding-bottom:30px;
+        }
+        p{
+            @include fonts('inter',16px,400,$paracolor);
+            line-height:30px;
+        }
+        .founder-data{
+            padding-top:30px;
+            display:flex;
+            .name{
+                padding-left:20px;
+                h5{
+                    @include fonts('inter',20px,600,$scolor);
+                    line-height:30px; 
+                }
+            }
+        }
+    }
+}

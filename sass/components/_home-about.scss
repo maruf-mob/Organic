@@ -1,0 +1,14 @@
+#home-about{
+    background:url(../images/about-bg.png)no-repeat center / cover;
+    padding-top:115px;
+    padding-bottom:115px;
+    
+    .about-content{
+        h3{
+            @include fonts('inter',35px,700,$scolor);
+        }
+        p{
+            @include fonts('inter',16px,400,$scolor);
+        }
+    }
+}
