@@ -1,0 +1,79 @@
+/* =============================
+        choose css starts
+ ================================*/
+ 
+ #choose{
+     padding-bottom:130px;
+     .heading-text{
+        h5{
+            @include fonts('inter',20px,500,$paracolor);
+            line-height: 30px;
+        }
+        h2{
+            @include fonts('inter',35px,700,$scolor);
+            padding-right:700px;
+            padding-bottom:15px;
+        }
+        p{
+           @include fonts('inter',16px,400,$paracolor);
+           line-height: 30px;
+           padding-right:545px;
+           padding-bottom:55px;
+       }
+     }
+     .different-tab{
+         ul{
+             flex-direction: column;
+         }
+         .nav-tabs{
+             border:none;
+             button{
+                 width:100%;
+                 padding:20px 96px;
+                 @include fonts('inter',20px,400,$paracolor); 
+                 display:block ruby;
+                 
+             }
+         }
+         .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+             border:1px solid $textorange;
+             background-color:$btnbg;
+             @include fonts('inter',20px,400,$white); 
+             border-radius:15px;
+             -webkit-border-radius:15px;
+             -moz-border-radius:15px;
+             -ms-border-radius:15px;
+             -o-border-radius:15px;
+        }
+         .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+             border:1px solid transparent;
+         }
+     }
+     .different-content{
+         .ready{
+            @include fonts('inter',20px,500,$paracolor);  
+            line-height:30px;
+         }
+         h4{
+            @include fonts('inter',25px,700,$scolor); 
+            padding-bottom:20px;
+         }
+         p{
+            @include fonts('inter',16px,400,$paracolor);  
+            line-height:30px;
+            padding-right:150px;
+            padding-bottom:20px;
+         }
+         ul{
+             list-style: disc;
+             color:$paracolor;
+             
+             li{
+                 padding-right:180px;
+                 margin-bottom:10px;
+                 @include fonts('inter',16px,400,$paracolor);
+                 line-height:30px;
+             }
+         }
+     }
+ }
