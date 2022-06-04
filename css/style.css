@@ -1955,4 +1955,297 @@ footer .news form button {
   color: #676767;
   line-height: 30px;
 }
+
+/* =============================
+    about-testimonial css starts
+ ================================*/
+#abt-test {
+  padding-bottom: 130px;
+}
+
+#abt-test .about-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 53px;
+}
+
+#abt-test .about-head h2 {
+  font-family: "inter";
+  font-size: 35px;
+  font-weight: 700;
+  color: #282828;
+}
+
+#abt-test .about-head .right-text p {
+  font-family: "inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #676767;
+  line-height: 28px;
+}
+
+#abt-test .about-head .right-text i {
+  font-family: 0;
+  font-size: 16px;
+  font-weight: 0;
+  color: #676767;
+  padding-top: 6px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+#abt-test .abt-left {
+  padding-top: 76px;
+  padding-bottom: 80px;
+  border: 1px solid #C9C9C9;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+#abt-test .abt-left img {
+  padding-left: 46px;
+}
+
+#abt-test .abt-left p {
+  font-family: "inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #676767;
+  line-height: 28px;
+  padding: 30px 12px 30px 46px;
+}
+
+#abt-test .abt-left .test-user .testi-user-detail {
+  padding-left: 20px;
+}
+
+#abt-test .abt-left .test-user .testi-user-detail h4 {
+  font-family: "inter";
+  font-size: 20px;
+  font-weight: 600;
+  color: #282828;
+}
+
+#abt-test .abt-left .test-user .testi-user-detail .test-p {
+  padding: 0px;
+}
+
+#abt-test .abt-right .abt-right-top {
+  padding: 34px 46px;
+  margin-bottom: 24px;
+  border: 1px solid #C9C9C9;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+#abt-test .abt-right .abt-right-top p {
+  font-family: "inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #676767;
+  line-height: 28px;
+  padding-bottom: 20px;
+}
+
+#abt-test .abt-right .abt-right-top .right-top-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#abt-test .abt-right .abt-right-top .right-top-user .top-user .top-right-user-detail {
+  padding-left: 20px;
+}
+
+#abt-test .abt-right .abt-right-top .right-top-user .top-user .top-right-user-detail h4 {
+  font-family: "inter";
+  font-size: 20px;
+  font-weight: 600;
+  color: #282828;
+}
+
+#abt-test .abt-right .abt-right-top .right-top-user .top-user .top-right-user-detail .test-p {
+  padding: 0px;
+}
+
+#abt-test .abt-right .abt-right-top .right-top-user .top-bar {
+  padding-top: 30px;
+}
+
+#abt-test .abt-right .abt-right-bottom {
+  padding: 34px 46px;
+  border: 1px solid #C9C9C9;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+#abt-test .abt-right .abt-right-bottom p {
+  font-family: "inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #676767;
+  line-height: 28px;
+  padding-bottom: 20px;
+}
+
+#abt-test .abt-right .abt-right-bottom .right-top-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#abt-test .abt-right .abt-right-bottom .right-top-user .top-user .top-right-user-detail {
+  padding-left: 20px;
+}
+
+#abt-test .abt-right .abt-right-bottom .right-top-user .top-user .top-right-user-detail h4 {
+  font-family: "inter";
+  font-size: 20px;
+  font-weight: 600;
+  color: #282828;
+}
+
+#abt-test .abt-right .abt-right-bottom .right-top-user .top-user .top-right-user-detail .test-p {
+  padding: 0px;
+}
+
+#abt-test .abt-right .abt-right-bottom .right-top-user .top-bar {
+  padding-top: 30px;
+}
+
+/* =============================
+        about-blog css starts
+ ================================*/
+#abt-blog {
+  padding-bottom: 130px;
+}
+
+#abt-blog h2 {
+  font-family: "inter";
+  font-size: 35px;
+  font-weight: 700;
+  color: #282828;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#abt-blog .blog-part {
+  position: relative;
+  border: 1px solid #C9C9C9;
+  border-top: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+#abt-blog .blog-part .abt-review {
+  padding-top: 23px;
+}
+
+#abt-blog .blog-part .abt-review .admin {
+  padding-left: 28px;
+}
+
+#abt-blog .blog-part .abt-review .admin .admin-icon i {
+  font-family: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #676767;
+}
+
+#abt-blog .blog-part .abt-review .admin .admin-text p {
+  font-family: "inter";
+  font-size: 14px;
+  font-weight: 400;
+  color: #676767;
+  padding-top: 2px;
+  padding-left: 10px;
+}
+
+#abt-blog .blog-part .abt-review .vegetable {
+  padding-left: 20px;
+}
+
+#abt-blog .blog-part .abt-review .vegetable .veg-text p {
+  font-family: "inter";
+  font-size: 14px;
+  font-weight: 400;
+  color: #676767;
+  padding-top: 2px;
+  padding-left: 10px;
+}
+
+#abt-blog .blog-part h3 {
+  font-family: "inter";
+  font-size: 25px;
+  font-weight: 600;
+  color: #282828;
+  line-height: 36px;
+  padding-top: 10px;
+  padding-left: 28px;
+}
+
+#abt-blog .blog-part .calender {
+  padding-top: 65px;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#abt-blog .blog-part .calender .date {
+  padding-left: 28px;
+}
+
+#abt-blog .blog-part .calender .date .date-day p {
+  font-family: "inter";
+  font-size: 14px;
+  font-weight: 400;
+  color: #676767;
+  padding-top: 4px;
+  padding-left: 10px;
+}
+
+#abt-blog .blog-part .calender .read a {
+  font-family: "inter";
+  font-size: 14px;
+  font-weight: 600;
+  color: #F47606;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+#abt-blog .blog-part::after {
+  content: '';
+  height: 1px;
+  width: 307px;
+  background-color: #C9C9C9;
+  position: absolute;
+  left: 28px;
+  bottom: 77px;
+}
 /*# sourceMappingURL=style.css.map */

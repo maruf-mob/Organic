@@ -1,0 +1,88 @@
+/* =============================
+        about-blog css starts
+ ================================*/
+ #abt-blog{
+     padding-bottom:130px;
+     h2{
+         @include fonts('inter',35px,700,$scolor);
+         text-align: center;
+         padding-bottom:50px;
+     }
+     .blog-part{
+         position: relative;
+         border:1px solid $blogborder;
+         border-top: none;
+         border-radius: 10px;
+         -webkit-border-radius: 10px;
+         -moz-border-radius: 10px;
+         -ms-border-radius: 10px;
+         -o-border-radius: 10px;
+         
+         .abt-review{
+            padding-top:23px;
+            .admin{
+                padding-left:28px;
+                .admin-icon{
+                    i{
+                       @include fonts(0,14px,400,$paracolor); 
+                    }
+                }
+                .admin-text{
+                    p{
+                       @include fonts('inter',14px,400,$paracolor);  
+                       padding-top:2px;
+                       padding-left:10px;
+                    }
+                }
+            }
+            .vegetable{
+                padding-left:20px;
+                .veg-text{
+                    p{
+                       @include fonts('inter',14px,400,$paracolor);  
+                       padding-top:2px;
+                       padding-left:10px;  
+                    }
+                }
+            }
+        }
+        h3{
+           @include fonts('inter',25px,600,$scolor);
+           line-height:36px;
+           padding-top:10px;
+           padding-left:28px;
+        }
+        .calender{
+            padding-top:65px;
+            padding-bottom:30px;
+            display:flex;
+            justify-content: space-between;
+           .date{
+               padding-left:28px;
+               .date-day{
+                   p{
+                       @include fonts('inter',14px,400,$paracolor);  
+                       padding-top:4px;
+                       padding-left:10px;  
+                   }
+               }
+           }
+           .read{
+               a{
+                   @include fonts('inter',14px,600,$textorange);
+                   cursor: pointer;
+                   padding-right:20px;   
+               }
+           }
+        }
+        &::after{
+            content:'';
+            height:1px;
+            width:307px;
+            background-color: $blog;
+            position:absolute;
+            left:28px;
+            bottom:77px;
+        }
+    }
+ }

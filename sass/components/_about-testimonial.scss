@@ -1,0 +1,126 @@
+/* =============================
+    about-testimonial css starts
+ ================================*/
+ 
+ #abt-test{
+     padding-bottom:130px;
+     .about-head{
+         display:flex;
+         justify-content: space-between;
+         padding-bottom:53px;
+         h2{
+             @include fonts('inter',35px,700,$scolor);
+         }
+         .right-text{
+             p{
+                @include fonts('inter',16px,400,$paracolor);
+                line-height:28px; 
+             }
+             i{
+                @include fonts(0,16px,0,$paracolor); 
+                padding-top:6px;
+                padding-left:20px; 
+                cursor: pointer;
+                
+             }
+         }
+     }
+     .abt-left{
+         padding-top:76px;
+         padding-bottom:80px;
+         border:1px solid $blogborder;
+         border-radius: 10px;
+         -webkit-border-radius: 10px;
+         -moz-border-radius: 10px;
+         -ms-border-radius: 10px;
+         -o-border-radius: 10px;
+         img{
+             padding-left:46px;
+         }
+         p{
+             @include fonts('inter',16px,400,$paracolor);
+             line-height:28px;
+             padding:30px 12px 30px 46px;
+         }
+         .test-user{
+             .testi-user-detail{
+                 padding-left:20px;
+                 h4{
+                    @include fonts('inter',20px,600,$scolor); 
+                 }
+                 .test-p{
+                     padding:0px;
+                 }
+             }
+         }
+    }
+    .abt-right{
+        .abt-right-top{
+            padding:34px 46px;
+            margin-bottom:24px;
+            border:1px solid $blogborder;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            p{
+                @include fonts('inter',16px,400,$paracolor);
+                line-height:28px;
+                padding-bottom:20px; 
+            }
+            .right-top-user{
+                display:flex;
+                justify-content: space-between;
+                .top-user{
+                    .top-right-user-detail{
+                        padding-left:20px;
+                        h4{
+                            @include fonts('inter',20px,600,$scolor); 
+                         }
+                         .test-p{
+                             padding:0px;
+                         } 
+                    }
+                    
+                }
+                .top-bar{
+                    padding-top:30px;
+                }
+            }
+        }
+        .abt-right-bottom{
+            padding:34px 46px;
+            border:1px solid $blogborder;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            p{
+                @include fonts('inter',16px,400,$paracolor);
+                line-height:28px;
+                padding-bottom:20px; 
+            }
+            .right-top-user{
+                display:flex;
+                justify-content: space-between;
+                .top-user{
+                    .top-right-user-detail{
+                        padding-left:20px;
+                        h4{
+                            @include fonts('inter',20px,600,$scolor); 
+                         }
+                         .test-p{
+                             padding:0px;
+                         } 
+                    }
+                    
+                }
+                .top-bar{
+                    padding-top:30px;
+                }
+            }
+        }
+    } 
+ }
