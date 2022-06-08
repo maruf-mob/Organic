@@ -1,0 +1,20 @@
+/* =============================
+    home-shop css starts
+ ================================*/
+ 
+ #home-shop{
+     background:url(../images/home-shop-banner.png)no-repeat center / cover;
+     padding-top:114px;
+     padding-bottom:114px;
+     margin-bottom:130px;
+     
+     .home-shop-text{
+         h3{
+             @include fonts('inter',35px,700,$scolor);
+             padding-bottom:5px;
+         }
+         p{
+             @include fonts('inter',16px,400,$scolor);
+         }
+     }
+ }

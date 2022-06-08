@@ -1,0 +1,41 @@
+/* =============================
+        category-items css starts
+ ================================*/
+ 
+ #category-items{
+     .cate-list{
+         padding:22px 0px 19px 29px;
+         border:1px solid $blogborder;
+         border-radius:20px;
+         -webkit-border-radius:20px;
+         -moz-border-radius:20px;
+         -ms-border-radius:20px;
+         -o-border-radius:20px;
+         position:relative;
+         margin-bottom:40px;
+         
+         h3{
+             @include fonts('inter',25px,700,$scolor);
+         }
+         ul{
+             color:$paracolor;
+             list-style:disc;
+             padding-top:40px;
+             li{
+                a{
+                    @include fonts('inter',16px,400,$paracolor); 
+                    line-height:34px;
+                } 
+             }
+         }
+         &::after{
+             content:'';
+             height:1px;
+             width:238px;
+             background-color: $blog;
+             position:absolute;
+             top:72px;
+             left:10px;
+         }
+    }
+ }

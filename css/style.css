@@ -2248,4 +2248,169 @@ footer .news form button {
   left: 28px;
   bottom: 77px;
 }
+
+/* =============================
+    home-shop css starts
+ ================================*/
+#home-shop {
+  background: url(../images/home-shop-banner.png) no-repeat center/cover;
+  padding-top: 114px;
+  padding-bottom: 114px;
+  margin-bottom: 130px;
+}
+
+#home-shop .home-shop-text h3 {
+  font-family: "inter";
+  font-size: 35px;
+  font-weight: 700;
+  color: #282828;
+  padding-bottom: 5px;
+}
+
+#home-shop .home-shop-text p {
+  font-family: "inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #282828;
+}
+
+/* =============================
+        cat-search css starts
+ ================================*/
+#cat-search {
+  padding-bottom: 50px;
+}
+
+#cat-search .left-search form {
+  position: relative;
+}
+
+#cat-search .left-search form input {
+  width: 364px;
+  height: 56px;
+  font-family: "inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #B0B0B0;
+  border: 1px solid #C9C9C9;
+  outline: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding-left: 22px;
+}
+
+#cat-search .left-search form i {
+  position: absolute;
+  top: 19px;
+  right: 19px;
+  font-family: 0;
+  font-size: 16px;
+  font-weight: 0;
+  color: #282828;
+  cursor: pointer;
+}
+
+#cat-search .middle-search p {
+  font-family: "inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #676767;
+  line-height: 28px;
+  padding-top: 12px;
+  padding-left: 13px;
+}
+
+#cat-search .right-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#cat-search .right-search .icons {
+  padding-top: 12px;
+}
+
+#cat-search .right-search .icons img {
+  cursor: pointer;
+}
+
+#cat-search .right-search .icons .list {
+  margin-left: 12px;
+}
+
+#cat-search .right-search .right-field {
+  padding-left: 30px;
+}
+
+#cat-search .right-search .right-field .form-select {
+  width: 267px;
+  height: 56px;
+  border: 1px solid #C9C9C9;
+  outline: none;
+  font-family: "inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #676767;
+  line-height: 28px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+}
+
+#cat-search .right-search .right-field .form-select:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* =============================
+        category-items css starts
+ ================================*/
+#category-items .cate-list {
+  padding: 22px 0px 19px 29px;
+  border: 1px solid #C9C9C9;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+#category-items .cate-list h3 {
+  font-family: "inter";
+  font-size: 25px;
+  font-weight: 700;
+  color: #282828;
+}
+
+#category-items .cate-list ul {
+  color: #676767;
+  list-style: disc;
+  padding-top: 40px;
+}
+
+#category-items .cate-list ul li a {
+  font-family: "inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #676767;
+  line-height: 34px;
+}
+
+#category-items .cate-list::after {
+  content: '';
+  height: 1px;
+  width: 238px;
+  background-color: #C9C9C9;
+  position: absolute;
+  top: 72px;
+  left: 10px;
+}
 /*# sourceMappingURL=style.css.map */
