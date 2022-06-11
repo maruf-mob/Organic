@@ -2371,7 +2371,11 @@ footer .news form button {
 /* =============================
         category-items css starts
  ================================*/
-#category-items .cate-list {
+#category-items {
+  padding-bottom: 172px;
+}
+
+#category-items .cate-list .list1 {
   padding: 22px 0px 19px 29px;
   border: 1px solid #C9C9C9;
   border-radius: 20px;
@@ -2383,20 +2387,20 @@ footer .news form button {
   margin-bottom: 40px;
 }
 
-#category-items .cate-list h3 {
+#category-items .cate-list .list1 h3 {
   font-family: "inter";
   font-size: 25px;
   font-weight: 700;
   color: #282828;
 }
 
-#category-items .cate-list ul {
+#category-items .cate-list .list1 ul {
   color: #676767;
   list-style: disc;
   padding-top: 40px;
 }
 
-#category-items .cate-list ul li a {
+#category-items .cate-list .list1 ul li a {
   font-family: "inter";
   font-size: 16px;
   font-weight: 400;
@@ -2404,7 +2408,7 @@ footer .news form button {
   line-height: 34px;
 }
 
-#category-items .cate-list::after {
+#category-items .cate-list .list1::after {
   content: '';
   height: 1px;
   width: 238px;
@@ -2412,5 +2416,344 @@ footer .news form button {
   position: absolute;
   top: 72px;
   left: 10px;
+}
+
+#category-items .cate-list .list2 {
+  padding: 22px 0px 12px 29px;
+  border: 1px solid #C9C9C9;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+#category-items .cate-list .list2 h3 {
+  font-family: "inter";
+  font-size: 25px;
+  font-weight: 700;
+  color: #282828;
+}
+
+#category-items .cate-list .list2::after {
+  content: '';
+  height: 1px;
+  width: 238px;
+  background-color: #C9C9C9;
+  position: absolute;
+  top: 72px;
+  left: 10px;
+}
+
+#category-items .cate-list .list2 .range .need {
+  height: 1px;
+  width: 238px;
+  position: absolute;
+  top: 112px;
+  left: 10px;
+}
+
+#category-items .cate-list .list2 .range .agri {
+  height: 1px;
+  width: 124px;
+  position: absolute;
+  top: 112px;
+  right: 10px;
+}
+
+#category-items .cate-list .list2 ul {
+  color: #676767;
+  list-style: disc;
+  padding-top: 40px;
+}
+
+#category-items .cate-list .list2 ul li {
+  font-family: "inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #676767;
+  line-height: 34px;
+  padding-top: 50px;
+}
+
+#category-items .cate-list .list3 {
+  padding: 22px 0px 19px 29px;
+  border: 1px solid #C9C9C9;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+#category-items .cate-list .list3 h3 {
+  font-family: "inter";
+  font-size: 25px;
+  font-weight: 700;
+  color: #282828;
+}
+
+#category-items .cate-list .list3::after {
+  content: '';
+  height: 1px;
+  width: 238px;
+  background-color: #C9C9C9;
+  position: absolute;
+  top: 72px;
+  left: 10px;
+}
+
+#category-items .cate-list .list3 .list-rating {
+  padding-top: 35px;
+}
+
+#category-items .cate-list .list3 .list-rating .form-check {
+  min-height: 2rem;
+}
+
+#category-items .cate-list .list3 .list-rating .tools {
+  padding-left: 10px;
+}
+
+#category-items .cate-list .list3 .list-rating i {
+  color: #E1E1E1;
+  cursor: pointer;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+
+#category-items .cate-list .list3 .list-rating i:hover {
+  color: #FFAE00;
+}
+
+#category-items .cate-list .list3 .list-rating .active {
+  color: #FFAE00;
+}
+
+#category-items .cate-list .list3 .list-rating span {
+  font-family: "inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #676767;
+}
+
+#category-items .cate-list .list3 .list-rating .form-check-input:checked {
+  background-color: #C9C9C9;
+  border-color: #C9C9C9;
+}
+
+#category-items .cate-list .list3 .list-rating .form-check-input:focus {
+  border: none;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 transparent;
+          box-shadow: 0 0 0 transparent;
+}
+
+#category-items .cate-list .list-4 .best-seller h3 {
+  font-family: "inter";
+  font-size: 25px;
+  font-weight: 700;
+  color: #282828;
+  padding-bottom: 20px;
+}
+
+#category-items .cate-list .list-4 .best-seller .first .sell .sell-data {
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+#category-items .cate-list .list-4 .best-seller .first .sell .sell-data h4 {
+  font-family: "inter";
+  font-size: 19px;
+  font-weight: 600;
+  color: #282828;
+  padding-bottom: 5px;
+}
+
+#category-items .cate-list .list-4 .best-seller .first .sell .sell-data .rate {
+  padding-bottom: 5px;
+}
+
+#category-items .cate-list .list-4 .best-seller .first .sell .sell-data .rate i {
+  color: #FFAE00;
+}
+
+#category-items .cate-list .list-4 .best-seller .first .sell .sell-data p {
+  font-family: "inter";
+  font-size: 16px;
+  font-weight: 500;
+  color: #676767;
+}
+
+#category-items .cate-list .list-4 .best-seller .second {
+  padding-top: 15px;
+}
+
+#category-items .cate-list .tag {
+  padding-top: 40px;
+}
+
+#category-items .cate-list .tag h3 {
+  font-family: "inter";
+  font-size: 25px;
+  font-weight: 700;
+  color: #282828;
+  padding-bottom: 20px;
+}
+
+#category-items .cate-list .tag ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -28px;
+}
+
+#category-items .cate-list .tag ul li {
+  padding: 10px 20px;
+  border: 1px solid #C9C9C9;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+#category-items .cate-list .tag ul li a {
+  font-family: "inter";
+  font-size: 16px;
+  font-weight: 500;
+  color: #676767;
+}
+
+#category-items .cate-list .tag ul .bread {
+  margin: 0 10px;
+}
+
+#category-items .cate-list .tag ul .trend {
+  margin-top: 10px;
+}
+
+#category-items .cate-item {
+  position: relative;
+}
+
+#category-items .cate-item .item {
+  position: relative;
+}
+
+#category-items .cate-item .item .item-hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  visibility: hidden;
+  opacity: 0;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+
+#category-items .cate-item .item .item-hover a {
+  padding: 13px 18px;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 10px;
+  color: #676767;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+
+#category-items .cate-item .item .item-hover a:last-of-type {
+  margin-right: 0;
+}
+
+#category-items .cate-item .item .item-hover a i {
+  font-size: 16px;
+}
+
+#category-items .cate-item .item .item-hover a:hover {
+  background-color: #F47606;
+  color: #FFFFFF;
+}
+
+#category-items .cate-item .item:hover .item-hover {
+  visibility: visible;
+  opacity: 1;
+}
+
+#category-items .cate-item .paginasion {
+  position: absolute;
+  bottom: -80px;
+  right: 0;
+}
+
+#category-items .cate-item .paginasion a {
+  padding: 10px 15px;
+  background-color: #E9E9E9;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: #000000;
+  margin-right: 15px;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+
+#category-items .cate-item .paginasion a:last-of-type {
+  margin-right: 0;
+}
+
+#category-items .cate-item .paginasion a:hover {
+  background-color: #477018;
+  color: #fff;
+}
+
+/* =============================
+search-category-items css starts
+ ================================*/
+#cat-search h3 {
+  font-family: "inter";
+  font-size: 25px;
+  font-weight: 700;
+  color: #282828;
+}
+
+#cat-search p {
+  font-family: "inter";
+  font-size: 18px;
+  font-weight: 400;
+  color: #676767;
+  padding-left: 415px;
+  padding-bottom: 39px;
 }
 /*# sourceMappingURL=style.css.map */
