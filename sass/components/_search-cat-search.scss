@@ -1,7 +1,7 @@
 /* =============================
 search-category-items css starts
  ================================*/
- #cat-search{
+ #cat-search-1{
      h3{
          @include fonts('inter',25px,700,$scolor);
      }
@@ -10,4 +10,53 @@ search-category-items css starts
          padding-left:415px;
          padding-bottom:39px;
      }
+     
+     .selection{
+        display:flex;
+        
+        .left-text{
+            text-align:left;
+            p{
+               @include fonts('inter',16px,400,$paracolor);
+               line-height:28px;  
+               padding-top:14px;
+            }
+        }
+        .left-search-1{
+           .form-select{
+               width:267px;
+               height:56px;
+               border:1px solid $blogborder;
+               outline:none;
+               @include fonts('inter',16px,400,$paracolor);
+               line-height:28px;
+               border-radius:10px;
+               -webkit-border-radius:10px;
+               -moz-border-radius:10px;
+               -ms-border-radius:10px;
+               -o-border-radius:10px;
+               cursor: pointer;
+               margin-left:32px;
+             }
+             .form-select:focus{
+                 box-shadow:none;
+             }
+        }
+       
+    }
+    .search-right{
+       display:flex;
+       .text-1{
+           p{
+              @include fonts('inter',16px,400,$paracolor);
+              line-height:28px;  
+              padding-top:14px; 
+           }
+       }
+       .browse{
+           .list{
+               margin-left:15px;
+           }
+       }
+   }
  }

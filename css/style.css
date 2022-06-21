@@ -461,177 +461,66 @@ h1, h2, h3, h4, h5, h6, p {
   margin-left: 70px;
 }
 
-#sell .sell-nav ul.nav-tabs {
-  border-bottom: none;
+#sell .sell-nav .nav-tabs {
+  border: none;
 }
 
-#sell .sell-nav ul.nav-tabs .nav-link.active {
+#sell .sell-nav .nav-tabs .nav-link {
   border: none;
-  border-bottom: 2px solid #F47606;
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
   -o-border-radius: 0;
-}
-
-#sell .sell-nav ul.nav-tabs .nav-item {
-  margin-right: 150px;
-}
-
-#sell .sell-nav ul.nav-tabs .nav-item .nav-link {
+  margin-right: 100px;
+  padding-bottom: 10px;
   font-family: "inter";
   font-size: 25px;
   font-weight: 700;
   color: #282828;
 }
 
-#sell .sell-nav ul.nav-tabs .nav-item:hover .nav-link {
-  border: none;
+#sell .sell-nav .nav-tabs .nav-link:hover {
+  border-bottom: 2px solid #F47606;
 }
 
-#sell .sell-nav ul.nav-tabs .nav-item:last-of-type {
-  margin-right: 0;
+#sell .sell-nav .nav-tabs .nav-item.show .nav-link, #sell .sell-nav .nav-tabs .nav-link.active {
+  border-bottom: 2px solid #F47606;
 }
 
-#sell .sell-holder ul {
-  margin-top: 30px;
+#sell .sell-content {
   margin-left: 70px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-#sell .sell-holder ul li {
-  width: 33%;
-  transform: scale(0.9);
-  -webkit-transform: scale(0.9);
-  -moz-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  -o-transform: scale(0.9);
-}
-
-#sell .sell-holder ul li .sell-content-image {
-  position: relative;
-}
-
-#sell .sell-holder ul li .sell-content-image .ratings {
-  position: absolute;
-  bottom: 21px;
-  left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-}
-
-#sell .sell-holder ul li .sell-content-image .ratings a {
-  color: #F47606;
-}
-
-#sell .sell-holder ul li .sell-content-text h4 {
-  font-family: "inter";
-  font-size: 20px;
-  font-weight: 600;
-  color: #282828;
-  padding-top: 20px;
-}
-
-#sell .sell-holder ul li .sell-content-text p {
-  font-family: "inter";
-  font-size: 20px;
-  font-weight: 600;
-  color: #969696;
-}
-
-#sell-2 {
-  padding-top: 130px;
+  padding-top: 50px;
   padding-bottom: 130px;
-  overflow: hidden;
 }
 
-#sell-2 .sell-nav ul.nav-tabs {
-  border-bottom: none;
-}
-
-#sell-2 .sell-nav ul.nav-tabs .nav-link.active {
-  border: none;
-  border-bottom: 2px solid #F47606;
-  border-radius: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
-}
-
-#sell-2 .sell-nav ul.nav-tabs .nav-item {
-  margin-right: 150px;
-}
-
-#sell-2 .sell-nav ul.nav-tabs .nav-item .nav-link {
-  font-family: "inter";
-  font-size: 25px;
-  font-weight: 700;
-  color: #282828;
-}
-
-#sell-2 .sell-nav ul.nav-tabs .nav-item:hover .nav-link {
-  border: none;
-}
-
-#sell-2 .sell-nav ul.nav-tabs .nav-item:last-of-type {
-  margin-right: 0;
-}
-
-#sell-2 .sell-holder ul {
-  margin-top: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-#sell-2 .sell-holder ul li {
-  width: 33%;
-  transform: scale(0.9);
-  -webkit-transform: scale(0.9);
-  -moz-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  -o-transform: scale(0.9);
-}
-
-#sell-2 .sell-holder ul li .sell-content-image {
+#sell .sell-content .sell-item-content {
   position: relative;
 }
 
-#sell-2 .sell-holder ul li .sell-content-image .ratings {
+#sell .sell-content .sell-item-content .ratings {
   position: absolute;
-  bottom: 21px;
+  top: 185px;
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
+  color: #FFAE00;
+  cursor: pointer;
 }
 
-#sell-2 .sell-holder ul li .sell-content-image .ratings a {
-  color: #F47606;
-}
-
-#sell-2 .sell-holder ul li .sell-content-text h4 {
+#sell .sell-content .sell-item-content h4 {
   font-family: "inter";
   font-size: 20px;
   font-weight: 600;
   color: #282828;
   padding-top: 20px;
+  padding-bottom: 5px;
 }
 
-#sell-2 .sell-holder ul li .sell-content-text p {
+#sell .sell-content .sell-item-content p {
   font-family: "inter";
   font-size: 20px;
   font-weight: 600;
@@ -2741,19 +2630,81 @@ footer .news form button {
 /* =============================
 search-category-items css starts
  ================================*/
-#cat-search h3 {
+#cat-search-1 h3 {
   font-family: "inter";
   font-size: 25px;
   font-weight: 700;
   color: #282828;
 }
 
-#cat-search p {
+#cat-search-1 p {
   font-family: "inter";
   font-size: 18px;
   font-weight: 400;
   color: #676767;
   padding-left: 415px;
   padding-bottom: 39px;
+}
+
+#cat-search-1 .selection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#cat-search-1 .selection .left-text {
+  text-align: left;
+}
+
+#cat-search-1 .selection .left-text p {
+  font-family: "inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #676767;
+  line-height: 28px;
+  padding-top: 14px;
+}
+
+#cat-search-1 .selection .left-search-1 .form-select {
+  width: 267px;
+  height: 56px;
+  border: 1px solid #C9C9C9;
+  outline: none;
+  font-family: "inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #676767;
+  line-height: 28px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+  margin-left: 32px;
+}
+
+#cat-search-1 .selection .left-search-1 .form-select:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#cat-search-1 .search-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#cat-search-1 .search-right .text-1 p {
+  font-family: "inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #676767;
+  line-height: 28px;
+  padding-top: 14px;
+}
+
+#cat-search-1 .search-right .browse .list {
+  margin-left: 15px;
 }
 /*# sourceMappingURL=style.css.map */

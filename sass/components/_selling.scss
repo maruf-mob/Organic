@@ -8,153 +8,61 @@
     }
     .sell-nav{
         margin-left:70px;
-        ul.nav-tabs{
-            border-bottom:none;
-            
-            .nav-link.active{
-                border:none;
-                border-bottom:2px solid $textorange;
-                border-radius: 0;
-                -webkit-border-radius: 0;
-                -moz-border-radius: 0;
-                -ms-border-radius: 0;
-                -o-border-radius: 0;
+        
+        .nav-tabs{
+            border:none;
+        }
+        .nav-tabs .nav-link{
+            border:none;
+            border-radius:0;
+            -webkit-border-radius:0;
+            -moz-border-radius:0;
+            -ms-border-radius:0;
+            -o-border-radius:0;
+            margin-right:100px;
+            padding-bottom:10px;
+            @include fonts('inter',25px,700,$scolor);
+        }
+        .nav-tabs .nav-link:hover{
+            border-bottom:2px solid $textorange;
+        }
+        .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+            border-bottom:2px solid $textorange;
+        }
+        // .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+        //     border-bottom:none;
+        // }
+        
+    }
+    .sell-content{
+        margin-left:70px;
+        padding-top:50px;
+        padding-bottom:130px;
+        .sell-item-content{
+            position:relative;
+            .ratings{
+                position:absolute;
+                top:185px;
+                left:50%;
+                transform:translateX(-50%);
+                -webkit-transform:translateX(-50%);
+                -moz-transform:translateX(-50%);
+                -ms-transform:translateX(-50%);
+                -o-transform:translateX(-50%);
+                color:$star-active;
+                cursor:pointer;
             }
-            .nav-item{
-                margin-right:150px;
-                .nav-link{
-                    @include fonts('inter',25px,700,$scolor);
-                    
-                }
-                &:hover{
-                    .nav-link{
-                        border:none;
-                    }
-                }
-                &:last-of-type{
-                    margin-right:0;
-                }
+            h4{
+                @include fonts('inter',20px,600,$scolor);
+                padding-top:20px;
+                padding-bottom:5px;
+            }
+            p{
+                @include fonts('inter',20px,600,$catcolor);
+                
             }
         }
+    }
     
-    }
-    .sell-holder{
-        ul{
-            margin-top:30px;
-            margin-left:70px;
-            display:flex;
-            flex-wrap:wrap;
-            li{
-                width:33%;
-                transform:scale(.9);
-                -webkit-transform:scale(.9);
-                -moz-transform:scale(.9);
-                -ms-transform:scale(.9);
-                -o-transform:scale(.9);
-                .sell-content-image{
-                    position: relative;
-                    .ratings{
-                        position: absolute;
-                        bottom:21px;
-                        left:50%;
-                        transform: translateX(-50%);
-                        -webkit-transform: translateX(-50%);
-                        -moz-transform: translateX(-50%);
-                        -ms-transform: translateX(-50%);
-                        -o-transform: translateX(-50%);
-                        a{
-                            color:$textorange;
-                        }
-                    }
-                }
-                .sell-content-text{
-                    h4{
-                        @include fonts('inter',20px,600,$scolor);
-                        padding-top:20px;
-                        // padding-bottom:10px;
-                    }
-                    p{
-                        @include fonts('inter',20px,600,$catcolor);
-                    }
-                }
-            }
-        }
-    }
-}
-
-#sell-2{
-    padding-top:130px;
-    padding-bottom:130px;
-    overflow:hidden;
-    .sell-nav{
-        ul.nav-tabs{
-            border-bottom:none;
-            
-            .nav-link.active{
-                border:none;
-                border-bottom:2px solid $textorange;
-                border-radius: 0;
-                -webkit-border-radius: 0;
-                -moz-border-radius: 0;
-                -ms-border-radius: 0;
-                -o-border-radius: 0;
-            }
-            .nav-item{
-                margin-right:150px;
-                .nav-link{
-                    @include fonts('inter',25px,700,$scolor);
-                    
-                }
-                &:hover{
-                    .nav-link{
-                        border:none;
-                    }
-                }
-                &:last-of-type{
-                    margin-right:0;
-                }
-            }
-        }
     
-    }
-    .sell-holder{
-        ul{
-            margin-top:30px;
-            display:flex;
-            flex-wrap:wrap;
-            li{
-                width:33%;
-                transform:scale(.9);
-                -webkit-transform:scale(.9);
-                -moz-transform:scale(.9);
-                -ms-transform:scale(.9);
-                -o-transform:scale(.9);
-                .sell-content-image{
-                    position: relative;
-                    .ratings{
-                        position: absolute;
-                        bottom:21px;
-                        left:50%;
-                        transform: translateX(-50%);
-                        -webkit-transform: translateX(-50%);
-                        -moz-transform: translateX(-50%);
-                        -ms-transform: translateX(-50%);
-                        -o-transform: translateX(-50%);
-                        a{
-                            color:$textorange;
-                        }
-                    }
-                }
-                .sell-content-text{
-                    h4{
-                        @include fonts('inter',20px,600,$scolor);
-                        padding-top:20px;
-                    }
-                    p{
-                        @include fonts('inter',20px,600,$catcolor);
-                    }
-                }
-            }
-        }
-    }
 }
